@@ -78,3 +78,45 @@
     margin: 0 auto;
     }
 }
+
+@media only screen and (max-width:725px){
+    .cover{
+        padding-top: 100px;
+        height: 120vh;
+    }
+    .half-width{
+        width: 50%;
+        
+    }
+    img.banner{
+        width: 90%;
+    }
+   
+}
+@media only screen and (max-width:580px){
+    h1.title{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .cover{
+        padding-top: 0px;
+        height: 100vh;
+    }
+    img.banner{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:480px){
+    .half-width{
+        width: 100%;
+    }
+    h1.title{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    img.banner{
+        width: 80%;
+        text-align: center;
+       
+    }
+}
